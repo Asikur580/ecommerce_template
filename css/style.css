@@ -1,0 +1,639 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/* topbar section */
+.topbar{
+    height: 40px;
+    background: #4D2952;
+    color:#FFFFFF;   
+}
+.topbar .row{
+    height: 40px;
+}
+.topbar-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.topbar-select{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* header scetion */
+.header{
+    height: 70px;
+}
+.header .row{
+    height: 70px;
+}
+
+.header-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+}
+.icon-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+/* navbar section */
+.navBar{
+    height: 70px;
+}
+.navBar .row{
+    height: 70px;
+}
+.nav-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #383838;
+}
+
+.drop1{
+    overflow: hidden;
+}
+.drop2{
+    overflow: hidden;
+}
+
+.subnav-content{
+    display: none;
+    position: absolute;   
+    background-color: #FFFFFF;
+    width: 100%;       
+    left: 0;
+    z-index: 12;
+    
+}
+.drop3{     
+    text-decoration: none;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #383838;
+    padding: 10px;   
+}
+.drop2:hover .subnav-content {
+    display: block;
+}
+.drop3 ul{
+    list-style:none;
+    padding: 0px;
+    margin-top: 20px;
+}
+.drop3 ul li{
+    padding: 5px 0px;
+}
+.drop3 ul li a{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #383838;
+    text-decoration: none;    
+}
+.drop3 ul li a:hover{
+    color: #b612cc;
+}
+.drop3-btn a{    
+    text-transform: uppercase;
+    width: 250px;    
+    background: #4D2952;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 8px 50px;
+    border: 1px solid #4D2952;  
+    text-decoration: none;
+}
+.drop3-btn a:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.drop3-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* discount section */
+
+.discount{
+    height: 40px;
+    background: #FFE8F0;
+}
+.discount .row{
+    height: 40px;
+}
+.discount-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.discount-text a{
+    text-transform: lowercase;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.discount-text a:hover{
+    color: #740000;
+}
+.discount2{
+    width: 33px;
+    height: 27px;
+    background: #FFFFFF;
+    text-align: center;    
+}
+
+/* brand section */
+
+.brand-title{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.brand-des{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.brand-btn{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.brand-card-title{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;     
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+.card-link{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;    
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FFFFFF;   
+}
+.card-link:hover{
+    color: #6b0000;
+}
+
+/* recommended section */
+
+.recommended-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.reco-text-title{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.reco-text-des{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.reco-text-prize{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+}
+.reco-text-btn{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.reco-btn a{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;    
+    text-transform: uppercase;
+    color: #000000;
+}
+.reco-link{
+    text-decoration: none;
+}
+
+/* new arrivals section */
+
+.arrival-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.arrival-text-title{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.arrival-text-des{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.arrival-text-prize{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+}
+.arrival-text-btn{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* best sellers section */
+
+.best-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.best-text-title{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.best-text-des{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.best-text-prize{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+}
+.best-text-btn{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* service section */
+
+.service{
+    height: 45px;
+    background: #4D2952;
+}
+.service .container .row{
+    height: 45px;
+}
+.service-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #F5F6F6;
+}
+
+/* promotions section */
+
+.promotion{
+    background: #F5F6F6;
+}
+.promotion1{
+    padding: 40px 100px;
+    border-right: 1px solid #CCCCCC;
+}
+.promotion-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.input-group1 input{
+    border:none;
+    outline: none;
+    width: 286px;
+    background: #FFFFFF;
+    padding: 10px;
+    border-bottom: 2px solid #000000;
+}
+.input-group1 input[type=email],input[type=text]{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;   
+    text-transform: capitalize;
+    color: #898989;
+    padding-left: 10px;
+}
+.promotion-btn-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 17px;    
+    text-transform: uppercase;
+    color: #000000;
+    border: 2px solid #000000;   
+    padding: 10px 30px; 
+}
+.promotion-des{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000
+}
+.proHelp{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.proEmail{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #383838;
+}
+.proVisit{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.proaddress{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #383838;
+    width:150px;
+}
+
+/* footer section */
+.footer{
+    padding: 40px 100px;
+}
+.footer-title-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.footerUl{
+    list-style: none;
+    padding: 0px;
+}
+.footerUl li{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 220%;
+    text-transform: capitalize;
+    color: #383838;
+}
+.footerUl2{
+    list-style: none;
+    padding: 0px;
+}
+.footerUl2 li img{
+    margin-right: 20px;
+}
+.country-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #000000;
+}
+.club-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #000000;
+    width: 271px;
+    padding: 10px;
+}
+
+/* main footer section */
+
+.mainf-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+}
+.privacy{    
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-right: 10px;
+    border-right: 1px solid #FFFFFF;
+}
+.privacy2{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.copyright{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;    
+}
+.mainf-des{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #E5E5E5;
+    width: 727px;
+    margin: auto;
+}
+.mainf-footer{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #E5E5E5;  
+}
+.fcard{
+    list-style: none;
+}
+
+
+

@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.filter{
+    padding: 10px 20px 500px 100px;
+}
+.back{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #000000;  
+    text-decoration: none;  
+}
+.filter-select{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 5px;
+    background: #F5F6F6;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.filter-btn{
+    text-transform: uppercase;
+    width: 250px;
+    margin-top: 20px;
+}
+.filter-item{
+    width: 250px;
+    margin-top: 10px;
+}
+.filter-item ul{
+    list-style: none;
+    padding: 0px;  
+}
+.filter-item ul li select{
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.coupun{
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.email{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #E9E9E9;
+    margin-top: 5px;
+}
+.filter-btn2{
+    text-transform: uppercase;
+    width: 250px;
+    margin-top: 5px;
+    background: #4D2952;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 7px 10px;
+    border: 1px solid #4D2952;
+}
+.filter-btn2:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+
+/* catalog section */
+
+.catalog{
+    padding-right: 200px;
+}
+.catalog-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.price{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #E9E9E9;  
+    text-transform:capitalize;  
+}
+.taka{
+    padding: 10px;
+    width: 60px;
+    border: 1px solid #E9E9E9;
+    margin-left: 10px;
+}
